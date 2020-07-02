@@ -9,4 +9,12 @@
     text-align: center;
     width: 100%;
   }
+  
+  .header-center, .header-right {
+        display: none;
+  }
+
+  .menu-icon {
+        display: block;
+  }
 }
