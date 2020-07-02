@@ -24,3 +24,84 @@ header {
   top: 0;
   z-index: 10;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #182C61;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  background-color: #3B3B98;
+  height: 600px;
+}
+
+.footer {
+  /* Gantikan background-color ke #1B9CFC*/
+  background-color: #1B9CFC;
+  
+  /* Gantikan color ke #fff */
+  color: #fff;
+  
+  /* Gantikan height ke 120px */
+  height: 120px;
+  
+  /* Gantikan padding untuk semua sisi ke 40px */
+  padding: 40px;
+  
+}
+
+/* Gantikan font-size dan property float footer-logo */
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+/* Gantikan float property footer-list */
+.footer-list {
+  float: right;
+}
+
+/* Tambahkan CSS untuk tag <li> kedalam footer-list */
+.footer-list li {
+  padding-bottom: 20px;
+}
