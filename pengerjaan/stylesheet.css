@@ -16,10 +16,85 @@ a {
 }
 
 .container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 0;
+}
+
+.logo {
+    color: #28395a;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-center {
+    float: left;
+}
+
+.header-center a {
+    line-height: 65px;
+    padding: 0 20px;
+    color: #28395a;
+    display: block;
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: 40px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right .register {
+    background-color: #fb246a;
+    color: #fff;
+}
+
+.header-right .register:hover {
+    background-color: #da2461;
+}
+
+.header-right .login {
+    border: 1px solid #fb246a;
+    color: #fb246a;
+}
+
+.header-right .login:hover {
+    background-color: #fb246a;
+    color: #fff;
+}
+
+.menu-icon {
+    color: #28395a;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
 
 .top-wrapper {
@@ -113,7 +188,7 @@ select.col-75 {
   }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .col-50, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
