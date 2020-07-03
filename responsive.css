@@ -1,12 +1,39 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
 
+  .main-tambahan h2 {
+    font-size: 20px;
+  }
+  
+  .box {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
 }
 
 /* For Smartphones */
-@media all and (max-width: 670px) {
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 670px) {
+  .col-50, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
   footer{
     text-align: center;
+    width: 100%;
+  }
+  
+  .header-center, .header-right {
+        display: none;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+  
+  .box{
     width: 100%;
   }
 }
