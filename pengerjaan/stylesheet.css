@@ -194,6 +194,45 @@ select.col-75 {
     margin-top: 0;
   }
 }
+.main-tambahan {
+  background-color: darkblue;
+  background-size: auto;
+  text-align: center;
+  margin: auto;
+}
+.main-tambahan span{
+  color: red;
+}
+.main-tambahan h2 {
+  color: white;
+  font-size: 50px;
+}
+.container {
+  position: relative;
+  width:1000px;
+  height: 350px;
+  margin: 80px auto;
+}
+.container .box{
+  width: 200px;
+height: 200px;
+background: blue;
+float: left;
+margin-top:15px;
+margin-left: 80px;
+margin-right: 20px;
+margin-bottom: 15px;
+box-sizing: border-box;
+padding: 20px;
+
+}
+.container .box .content {
+  color: white;
+
+}
+.fa:hover{
+  color: red;
+}
 
 
 
